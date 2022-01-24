@@ -1,5 +1,5 @@
 <?php
-include_once '../koneksi.php';
+include_once '../connection.php';
 
 $kelas = $_POST['kelas'];
 $nama = $_POST['nama'];
