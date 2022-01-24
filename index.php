@@ -6,6 +6,14 @@
 	<title>HALAMAN LOGIN</title>
 </head>
 <body>
-
+	<h1>Halaman Login</h1>
+	<form action="" method="post">
+		<ul>
+			<li>
+				<label for="username">Username:</label>
+				<select name="kelas">
+					<option>XIRPL2</option>
+					<option>XIRPL3</option>
+				</select>
 </body>
 </html>
