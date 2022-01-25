@@ -3,14 +3,14 @@
 /* This will Be function until refactor */
 #require '..fn/list.php';
 
-$conn = mysqli_connect("localhost", "root", "", "test");
+$conn = mysqli_connect("localhost", "root", "", "absen");
 $sis = mysqli_query($conn, "SELECT * FROM siswa");
 
 /* TO-DO adding catagory for sick or  permission */
 #$hadir = mysqli_query($conn, "SELECT FROM * FROM hadir");
 
 # $sis = mysqli_fetch_row($siswa);
-var_dump($sis);
+/* var_dump($sis); */ 
 
 ?>
 
@@ -26,24 +26,29 @@ var_dump($sis);
 	<table border="1" cellpadding="10" cellspacing="0">
 		<tr>
 			<th>No.</th>
-			<th>Aksi</th>
-			<th>Nama</th>
+			<th>Delete</th>
+			<th>Update</th>
 			<th>Kelas</th>
+			<th>Nama</th>
 			<th>Nis</th>
 		</tr>
 
-		<?php while( $row = mysqli_fetch_assoc($sis) ) : ?>
+		<?php 
+		while($row = mysqli_fetch_assoc($sis)){
+			$row[] = $row;
+		}
+		?>
 		<tr>
 			<td><?= $row["id"]; ?></td>
 			<td>
 				<a href="">ubah</a>
-				<a href="">hapus</a>
+			</td>
+			<td>				
+				<a href="fn/delete.php">hapus</a>
 			</td>
 			<td>
-			<td><?= $row=["Nama"]; ?></td>
-			<td><?= $row=["nis"]; ?></td>
 			<td><?= $row=["kelas"]; ?></td>
-<?php endwhile; ?>
-
+			<td><?= $row=["nama"]; ?></td>
+			<td><?= $row=["nis"]; ?></td>
 </body>
 </html>
