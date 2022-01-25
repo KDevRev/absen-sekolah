@@ -1,9 +1,11 @@
 <?php
-#include 'connection.php';
+include 'koneksi.php';
 /* Ini adalah fungsi buat Daftar, Akan di kerjakan nanti */
 #require '..fn/list.php';
 
-$conn = mysqli_connect("localhost", "root", "", "test");
+
+/* Useless karena akan ditambah kode function buat Koneksi */
+# $conn = mysqli_connect("localhost", "root", "", "test");
 $sis = mysqli_query($conn, "SELECT * FROM siswa");
 
 /* Masih Sebagai Fungsi Table 2 Yang dimana Akan dikerjakan nanti */
