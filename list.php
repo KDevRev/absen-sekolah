@@ -1,14 +1,15 @@
 <?php
 #include 'connection.php';
-/* This will Be function until refactor */
+/* Ini adalah fungsi buat Daftar, Akan di kerjakan nanti */
 #require '..fn/list.php';
 
-$conn = mysqli_connect("localhost", "root", "", "absen");
+$conn = mysqli_connect("localhost", "root", "", "test");
 $sis = mysqli_query($conn, "SELECT * FROM siswa");
 
-/* TO-DO adding catagory for sick or  permission */
+/* Masih Sebagai Fungsi Table 2 Yang dimana Akan dikerjakan nanti */
 #$hadir = mysqli_query($conn, "SELECT FROM * FROM hadir");
 
+/* Sebagai debug kalau misalnya ada error */
 # $sis = mysqli_fetch_row($siswa);
 /* var_dump($sis); */ 
 
