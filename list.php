@@ -10,7 +10,7 @@ $sis = mysqli_query($conn, "SELECT * FROM siswa");
 
 /* Sebagai debug kalau misalnya ada error */
 # $sis = mysqli_fetch_row($siswa);
-/* var_dump($sis); */ 
+/* var_dump($sis); */
 
 ?>
 
@@ -33,7 +33,7 @@ $sis = mysqli_query($conn, "SELECT * FROM siswa");
 			<th>Nis</th>
 		</tr>
 
-		<?php 
+		<?php
 		while($row = mysqli_fetch_assoc($sis)){
 			$row[] = $row;
 		}
@@ -43,7 +43,7 @@ $sis = mysqli_query($conn, "SELECT * FROM siswa");
 			<td>
 				<a href="">ubah</a>
 			</td>
-			<td>				
+			<td>
 				<a href="fn/delete.php">hapus</a>
 			</td>
 			<td>
