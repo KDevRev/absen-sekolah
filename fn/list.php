@@ -4,7 +4,7 @@ include_once '../koneksi.php';
 
 // Cek Koneksi
 if($conn === false){
-	die("ERROR: Could not connect. " . mysqli_connect_error());
+	die("ERROR: Tidak dapat konek. " . mysqli_connect_error());
 }
 
 // Attempt select query execution
