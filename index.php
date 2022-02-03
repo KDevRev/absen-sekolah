@@ -15,5 +15,8 @@
 					<option>XIRPL2</option>
 					<option>XIRPL3</option>
 				</select>
+                        </li>
+                </ul>
+        </form>
 </body>
 </html>
