@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,8 +18,8 @@
                     <option>XIRPL2</option>
                     <option>XIRPL3</option>
                 </select>
-                        </li>
-                </ul>
-        </form>
+            </li>
+        </ul>
+    </form>
 </body>
 </html>
