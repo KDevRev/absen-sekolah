@@ -1,0 +1,49 @@
+body {
+  background: #555;
+  font-family: sans-serif;
+}
+ 
+h1 {
+  color: #fff;
+  font-size: 35px;
+  text-align: center;
+}
+
+.tambah {
+  padding: 1em;
+  margin: 2em auto;
+  width: 17em;
+  background: #fff;
+  border-radius: 6px;
+}
+ 
+label {
+  font-size: 10pt;
+  color: #555;
+}
+
+table {
+  background-color: white;
+  padding: 1em;
+  margin: 2em auto;
+  width: 17em;
+  background: #fff;
+  border-radius: 6px;
+}
+
+textarea {
+  padding: 8px;
+  width: 95%;
+  background: #efefef;
+  border: 0;
+  font-size: 10pt;
+  margin: 6px 0px;
+}
+ 
+.tombol {
+  background: #1DE124;
+  color: #fff;
+  border: 0;
+  padding: 5px 8px;
+  margin: 20px 0px;
+}
