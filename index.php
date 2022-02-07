@@ -3,16 +3,17 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="fn/style.css">
 	<title>Absensi</title>
-	<script type="text/javascript">
-		function validate()
-		{
-			var x=document.forms["form"]["ket"].value;
-			if (x==null || x=="")
-			{
-				alert("comp cannot be blank");
-				return false;
-			}
-		</script>
+<script type="text/javascript">
+function validate()
+{
+	var x=document.forms["form"]["ket"].value;
+	if (x==null || x=="")
+	{
+		alert("comp cannot be blank");
+		return false;
+	}
+}
+	</script>
 	</head>
 	<body>
 		<h1>FORMULIR ABSEN</h1>
